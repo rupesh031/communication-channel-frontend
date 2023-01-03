@@ -152,8 +152,9 @@ function Update(props) {
                 <input
                   className="input"
                   value={roomID}
+                  placeholder="roomID"
                   onChange={(a) => {
-                    setUserID(a.target.value);
+                    setRoomID(a.target.value);
                   }}
                 />
               </div>
